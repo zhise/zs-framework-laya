@@ -1,0 +1,1 @@
+{"type":"Button","searchKey":"Button,btn_exit","props":{"y":0,"x":0,"stateNum":"1","skin":"ad/icon-cancel.png","name":"btn_exit","preset":"laya/pages/prefab/FakeExitButton.prefab","presetID":1,"isPresetRoot":true},"nodeParent":3,"label":"btn_exit","isDirectory":false,"isAniNode":true,"hasChild":false,"compId":7,"child":[],"x":30}
