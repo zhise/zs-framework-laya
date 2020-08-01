@@ -1,0 +1,25 @@
+{
+    "x":0,
+    "type":"Label",
+    "selectedBox":90,
+    "searchKey":"Label,score",
+    "props":{"y":0,"x":0,"width":64,"var":"score","text":"+8","scaleY":0.5,"scaleX":0.5,"presetID":1,"preset":"laya/pages/prefab/scoreTip.prefab","isPresetRoot":true,"height":32,"fontSize":32,"font":"jifenwenzi","color":"#f6f6f6","anchorY":1,"anchorX":0.5,"align":"center"},
+    "nodeParent":-1,
+    "maxID":91,
+    "label":"score",
+    "isDirectory":false,
+    "isAniNode":true,
+    "hasChild":false,
+    "compId":90,
+    "child":[
+        ],
+    "animations":[
+        {
+            "nodes":[
+                ],
+            "name":"ani1",
+            "id":1,
+            "frameRate":24,
+            "action":0
+        }]
+}
