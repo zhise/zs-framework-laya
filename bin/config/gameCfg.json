@@ -1,0 +1,356 @@
+{
+    "version": "0.0.1",
+    "appId": "",
+    "subpackage":[],
+    "configList":[
+    ],
+    "fontList": [        
+        "guoshancheshuzi02",
+        "guoshancheshuzi03",
+        "jifenwenzi",
+        "score"
+    ],
+    "baseResList": [
+    ],
+    "bgm": "music/bg.mp3",
+    "soundClick": "sound/buttonClick.wav",
+    "soundViewOpen": "sound/viewOpen.wav",
+    "default3DScene": null,
+    "viewMap": {
+        "loading": "view/comm/LoadingPage.scene",
+        "home": "view/comm/HomePage.scene",
+        "rank": "view/comm/RankPage.scene",
+        "playing": "view/game/GamePage.scene",
+        "relive": "view/comm/RelivePage.scene",
+        "relive2": "view/comm/RelivePage_2.scene",
+        "score": "view/comm/WinPage.scene",
+        "score2": "view/comm/WinPage_2.scene",
+        "screenAd": "view/ad/FullAd.scene",
+        "floatAd": "view/ad/FloatAd.scene",
+        "store": "view/game/StorePage.scene",
+        "listAd": "view/ad/ListAd.scene",
+        "knockEggAd": "view/ad/KnockEgg.scene"
+    },
+    "useWebApi": true,
+    "useWebAdApi": true,
+    "webApiSign": "wlx_api_secret",
+    "webApiMap": {
+        "login": "https://wlx.zxmn2018.com/user/login",
+        "authorize": "https://wlx.zxmn2018.com/user/update",
+        "gameCfg": "https://wlx.zxmn2018.com/config/get_config",
+        "userInfo": null,
+        "gameStart": "https://wlx.zxmn2018.com/game/start",
+        "gameEnd": "https://wlx.zxmn2018.com/game/end",
+        "worldRank": "https://wlx.zxmn2018.com/index/top",
+        "logVideo": "https://wlx.zxmn2018.com/index/video"
+    },
+    "defaultCfg": {
+        "userId": {
+            "userId": "1"
+        },
+        "gameSetting": {
+        },
+        "userInfo": {
+            "max_score": 0,
+            "gold": 0
+        },
+        "levelData": {
+            "game_id": "-1"
+        }
+    },
+    "adCfg": {
+        "zs_ad_jump_num": 3,
+        "zs_banner_adunit": "adunit-e666a225f61ad142",
+        "zs_banner_banner_time": 1450,
+        "zs_banner_city": 1,
+        "zs_banner_horizontal_enable": 1,
+        "zs_banner_refresh_time": 30000,
+        "zs_banner_show_time": 1,
+        "zs_banner_system": "ios",
+        "zs_banner_text_time": 1500,
+        "zs_banner_vertical_enable": 1,
+        "zs_close_text_time": 2000,
+        "zs_export_ad_switch": "3",
+        "zs_full_screen_ad": 0,
+        "zs_full_screen_adunit": "adunit-34ef2560804229c4",
+        "zs_jump_appid": "wxc136d75bfc63107c",
+        "zs_jump_path": "pages/index/index",
+        "zs_jump_switch": 1,
+        "zs_revive_click_num": 0,
+        "zs_revive_share_num": 0,
+        "zs_revive_type": 2,
+        "zs_revive_video_num": -1,
+        "zs_share_img": "https://txcdn.ylll111.xyz/game1/7249b429498ac87dc3567dc631f6f3c3.jpg",
+        "zs_share_title": "来了，来了，他们来了！惊险，刺激3D版过山车。",
+        "zs_switch": 0,
+        "zs_version": "1.0.0",
+        "zs_video_adunit": "adunit-02aca121c03f37a2"
+    },
+    "iosFilterAppIds": [],  
+    "bannerCfg": {
+        "BannerAnchorArr": [
+            "BOTTOM_LEFT",
+            "BOTTOM_RIGHT",
+            "TOP_LEFT",
+            "TOP_RIGHT"
+        ],
+        "HomePage": {
+            "initGroupArr": [
+                {
+                    "sign": 1,
+                    "length": 1,
+                    "autoChange": false,
+                    "isReset": false
+                }
+            ],
+            "exposureData": {
+                "sign": 1,
+                "anchorArr": [
+                    "BOTTOM_LEFT"
+                ]
+            }
+        },
+        "WinPage": {
+            "initGroupArr": [
+                {
+                    "sign": 2,
+                    "length": 3,
+                    "autoChange": true,
+                    "isReset": true
+                }
+            ],
+            "showData": {
+                "sign": 2,
+                "isDelay": true
+            },
+            "exposureData": {
+                "sign": 2,
+                "anchorArr": [
+                    "BOTTOM_LEFT",
+                    "BOTTOM_RIGHT"
+                ]
+            }
+        },
+        "RelivePage": {
+            "initGroupArr": [
+                {
+                    "sign": 2,
+                    "length": 3,
+                    "autoChange": true,
+                    "isReset": true
+                }
+            ],
+            "showData": {
+                "sign": 2,
+                "isDelay": true
+            },
+            "exposureData": {
+                "sign": 2,
+                "anchorArr": [
+                    "BOTTOM_LEFT",
+                    "BOTTOM_RIGHT"
+                ]
+            }
+        },
+        "GetPower": {
+            "initGroupArr": [
+                {
+                    "sign": 4,
+                    "length": 3,
+                    "autoChange": true,
+                    "isReset": true
+                }
+            ],
+            "showData": {
+                "sign": 4,
+                "isDelay": true
+            },
+            "exposureData": {
+                "sign": 4,
+                "anchorArr": [
+                    "BOTTOM_LEFT",
+                    "BOTTOM_RIGHT"
+                ]
+            }
+        },
+        "KnockEgg": {
+            "initGroupArr": [
+                {
+                    "sign": 3,
+                    "length": 3,
+                    "autoChange": true,
+                    "isReset": true
+                }
+            ],
+            "showData": {
+                "unAutoShow": true,
+                "sign": 3,
+                "showType": 1
+            },
+            "exposureData": {
+                "sign": 3,
+                "anchorArr": [
+                    "BOTTOM_LEFT",
+                    "BOTTOM_RIGHT"
+                ]
+            }
+        },
+        "FullAd": {
+            "lockHide": true
+        },
+        "ListAd": {
+            "lockHide": true
+        }
+    },
+    "zhiseGameAdCfg": {
+        "HomePage":[
+            {
+                "adType": "promotion",
+                "viewUrl": "view/ad/GameAdScrollH.scene"
+            }
+        ],
+        "FloatAd": [
+            {
+                "adType": "promotion",
+                "readonly": true
+            }
+        ],
+        "FullAd": [
+            {
+                "adType": "promotion",
+                "readonly": true
+            }
+        ],
+        "ListAd": [
+            {
+                "adType": "promotion",
+                "readonly": true
+            }
+        ],
+        "KnockEgg":[
+            {
+                "adType": "promotion",
+                "readonly": true
+            }
+        ],
+        "RelivePage": [
+            {           
+                "adType": "promotion",
+                "viewUrl": "view/ad/GameAdScrollV.scene",
+                "checkKey": "zs_finish_jump"
+            }
+        ],
+        "RelivePage_2": [
+            {           
+                "adType": "promotion",  
+                "viewUrl": "view/ad/GameAdSlide.scene",
+                "checkKey": "zs_finish_jump"
+            }
+        ],
+        "WinPage": [
+            {           
+                "adType": "promotion",
+                "viewUrl": "view/ad/GameAdScrollV.scene",
+                "checkKey": "zs_finish_jump"
+            }
+        ],
+        "WinPage_2": [
+            {           
+                "adType": "promotion",  
+                "viewUrl": "view/ad/GameAdSlide.scene",
+                "checkKey": "zs_finish_jump"
+            }
+        ]
+    },
+    "zhiseIconAdCfg": {
+        "HomePage":{
+            "adType": "promotion",
+            "viewUrl": "view/ad/GameIconAds.scene"
+        },
+        "GamePage":{
+            "auto": false,
+            "adType": "promotion",
+            "viewUrl": "view/ad/GameIconAds1.scene"
+        }
+    },
+    "nativeIconAdCfg": {
+        "HomePage":{
+            "idKey": "zs_recommend_id1",
+            "viewUrl": "view/ad/NativeIconAds.scene"
+        },
+        "GamePage":{
+            "idKey": "zs_recommend_id1",
+            "auto": false,
+            "viewUrl": "view/ad/NativeIconAds1.scene"
+        },
+        "WinPage":{
+            "idKey": "zs_recommend_id1",
+            "viewUrl": "view/ad/NativeIconAds2.scene"
+        },
+        "WinPage_2":{
+            "idKey": "zs_recommend_id1",
+            "viewUrl": "view/ad/NativeIconAds2.scene"
+        }
+    },
+    "mistakenlyTouchCfg": {
+        "WinPage":[
+            {
+                "path": "middleUI/homeBtn",
+                "offsetX": 0,
+                "offsetY": 150
+            },
+            {
+                "path": "middleUI/nextBtn",
+                "offsetX": 0,
+                "offsetY": 150
+            }
+        ],
+        "RelivePage":[
+            {
+                "path": "middleUI/jumpByShareBtn",
+                "offsetX": 0,
+                "offsetY": 150,
+                "duaration": 300
+            }
+        ]
+    },
+
+    "fakeExitBtnCfg":{
+        "HomePage":{
+            "name":"fakeExitBtn",
+            "path": "topUI",
+            "x": 540,
+            "y": 60
+        },
+        "GamePage":{
+            "name":"fakeExitBtn",
+            "path": "topUI",
+            "x": 540,
+            "y": 100,
+            "isHide":true
+        },
+        "WinPage":{
+            "name":"fakeExitBtn",
+            "path": "topUI",
+            "x": 540,
+            "y": 200
+        },
+        "RelivePage":{
+            "name":"fakeExitBtn",
+            "path": "topUI",
+            "x": 540,
+            "y": 200
+        }
+    },
+    "storeCfg": {
+        "typeMap": ["icon/shop_skin","icon/shop_skate"],
+        "exchangeRate": 500,
+        "webApi": {
+            "RequestStoreData": "https://wlx.zxmn2018.com/store/index",
+            "RequestEquipItem": "https://wlx.zxmn2018.com/store/use_goods",
+            "ExchangeCoin": "https://wlx.zxmn2018.com/game/video",
+            "UnlockGoodsByGold": "https://wlx.zxmn2018.com/store/unlock_gold",
+            "UnlockGoodsByVideo": "https://wlx.zxmn2018.com/store/unlock_video"
+        }
+    }
+}
